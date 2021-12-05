@@ -50,7 +50,7 @@ I printed the first 10 values, then an ellipses, then the last 10 values.  I pri
   
 So, in order to produce the shortened console output, I had to generate all of the integers whose digits summed to 19, save those values to a `List`, print the first 10 values, and print the last 10 values.  If the resulting `List` had less than 20 values, I'd print all the values.
 
-The code I wrote accepted the integer minimum, the integer maximum, and the integer sum of the digits to match.  You can change these values to anything you wish, and the code will produce the correct result.
+The code I wrote accepted the integer minimum, the integer maximum, and the integer sum of the digits to match.  You can change these values to any positive integers you wish, and the code will produce the correct result.
 
 I go through all the values between the minimum and the maximum one by one.  This is fast enough for the integers 100 to one million, but will take some minutes to compute if the range is much larger, like from 100 to `Integer.MAX_VALUE`.
 
