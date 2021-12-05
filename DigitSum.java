@@ -81,10 +81,10 @@ public class DigitSum {
 		}
 	}
 	
-	private String displayNumber(int index, int sum) {
-		String indexString = String.format("%,9d", index);
+	private String displayNumber(int value, int sum) {
+		String valueString = String.format("%,9d", value);
 		String sumString = String.format("%3d", sum);
-		return indexString + "  " + sumString;
+		return valueString + "  " + sumString;
 	}
 	
 	private String displayTotal(int minimum, int maximum, int matchSum, int count) {
