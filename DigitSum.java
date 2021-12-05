@@ -62,9 +62,9 @@ public class DigitSum {
 		System.out.println("  Integer  Sum");
 		displayValueGroup(values, 0, limit, matchSum);
 		
-		if (size < groupCount) {
+		if (size <= groupCount) {
 			// Skip printing last group
-		} else if (size < groupCount + groupCount) {
+		} else if (size <= groupCount + groupCount) {
 			displayValueGroup(values, groupCount, size, matchSum);
 		} else {
 			System.out.println("      ...");
